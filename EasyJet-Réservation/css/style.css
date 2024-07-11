@@ -1,0 +1,119 @@
+* {
+  box-sizing: border-box;
+}
+
+/* BOOKING-MENU GENERAL STYLE */
+
+.booking-menu {
+  font-size: 13px;
+  width: 300px;
+  height: 433px;
+  box-shadow: 0px 0px 5px #bbb;
+  border-radius: 5px;
+  padding: 12px;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+.checkbox {
+  margin-bottom: 10px;
+}
+
+.checkbox input {
+  width: 28px;
+  height: 28px;
+}
+
+/* BLOC DESTINATION - STYLE */
+
+.destination {
+  border: solid 1px #e2e2e2;
+  width: 278px;
+  height: 71px;
+
+}
+
+.destination div:nth-child(1) {
+  margin: 1px;
+  padding: 0 6px;
+  height: 34px;
+  padding-right: 14px;
+  line-height: 34px;
+}
+
+.divider {
+  margin: 0 auto;
+  display: block;
+  width: 80%;
+  border: 1px solid #eee;
+}
+
+.destination div:nth-child(3) {
+  margin: 1px;
+  padding: 0 6px;
+  height: 32px;
+  line-height: 34px;
+}
+
+.destination label:nth-child(n) {
+  padding-left: 6px;
+}
+
+.destination input:nth-child(n) {
+  border: none;
+}
+
+/* BLOC DATE - STYLE  */
+
+.date {
+  border: solid 1px #e2e2e2;
+  width: 278px;
+  height: 71px;
+  margin: 10px 0px;
+}
+
+.date p {
+  color: #ff7801;
+  margin: 1px;
+  padding: 0 6px;
+  padding-right: 14px;
+  line-height: 34px;
+}
+
+/* BLOC PASSENGERS - STYLE */
+
+.passengers {
+  padding-bottom: 5px;
+}
+
+.passengers div:nth-child(n) {
+  padding: 5px;
+}
+
+.passengers div:nth-child(n) > button {
+  border: none;
+  background-color: unset;
+  font-size: 20px;
+
+}
+
+.passengers > div > span {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.flights-display {
+  border: none;
+  color: white;
+  background-color: #ff7801;
+  padding: 10px 0;
+  width: 100%;
+  line-height: 14px;
+}
+
+.bottom-links a {
+  display: block;
+  color: #ff7801;
+  margin: 12px 2px 0 2px;
+  font-size: 13px;
+}

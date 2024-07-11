@@ -1,0 +1,125 @@
+body {
+  font-family: "Varela Round", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.wrapper {
+  width: 960px;
+  margin: 0 auto;
+}
+
+h2 {
+  font-size: 16px;
+  padding: 8px 0px 12px 0px;
+}
+
+h3 {
+  font-size: 16px;
+  padding: 8px 0px 12px 0px;
+}
+
+/* HEADER */
+
+header {
+  background-image: url(/assets/imgs/headbar.gif);
+  background-size: cover;
+  height: 60px;
+  font-size: 16px;
+}
+
+header a {
+
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
+
+header button {
+  padding: 7px 10px;
+  background-color: white;
+  color: #ff6601;
+  border: none;
+  font-size: 16px;
+  border-radius: 2px;
+}
+
+nav {
+  padding: 15px 0px;
+}
+
+/* ------------------- */
+
+/* MAIN - STYLE */
+
+/* BEACH - SECTION */
+
+.beach-section {
+    margin-bottom: 20px;
+}
+
+.beach-section img {
+  width: 100dvw;
+  height: 650px;
+  object-fit: cover;
+}
+
+/* WORLDWIDE-DEFAULT */
+
+.worldwide-default {
+    margin-bottom: 20px;
+      box-shadow: #bbb 0px 0px 5px;
+
+}
+
+.worldwide-default > div {
+    padding: 10px;
+}
+
+.worldwide-default p {
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+
+.worldwide-default button {
+  padding: 8px 40px;
+  background-color: #ff6601;
+  border: none;
+  color: white;
+  font-size: 14px;
+  border-radius: 2px;
+}
+/* WORLDWIDE */
+
+
+
+.worldwide img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  object-position: right top;
+  display: block;
+}
+
+/* WORLDWIDE2 */
+
+
+
+.worldwide2 img {
+  width: 100%;
+  height: 305px;
+  object-fit: cover;
+  object-position: right top;
+    display: block;
+}
+
+/* Footer */
+
+footer {
+  background-color: #f3f3f3;
+}
+
+footer > div {
+    padding: 10px;
+}
