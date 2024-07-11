@@ -10,7 +10,9 @@
   <body>
     <section class="booking-menu">
       <form action="get">
-        <div class="checkbox"><label><input type="checkbox"  /> Aller Simple</label></div>
+        <div class="checkbox" id="checkbox">
+          <input type="checkbox" /> <label for="checkbox"> Aller Simple</label>
+        </div>
 
         <div class="destination">
           <div>
@@ -22,17 +24,32 @@
           </div>
         </div>
 
-        <div class="date">
+        <div class="date-picker">
           <p>Aller</p>
           <div class="divider"></div>
           <p>Retour</p>
         </div>
 
-        <div class="passengers">
-          <div>Adultes (16+)<button style="color:#ff7801">-</button><span>1</span><button style="color:#ff7801">+</button></div>
-          <div>Enfants (2-15) <button>-</button><span>0</span><button style="color:#ff7801">+</button></div>
-          <div>Bébés (<2)<button>-</button><span>0</span><button style="color:#ff7801">+</button></div>
+        <div class="quantity">
+          <div>
+            <p>Adultes (16+)</p>
+            <div>
+              <button style="color: #ff7801">-</button><span>1</span
+              ><button style="color: #ff7801">+</button>
+            </div>
+          </div>
+
+          <div>
+            <p>Enfants (2-15)</p>
+            <div><button>-</button><span>0</span> <button style="color: #ff7801">+</button></div>
+          </div>
+
+          <div>
+            <p>Bébés (<2)</p>
+            <div><button>-</button><span>0</span> <button style="color: #ff7801">+</button></div>
+          </div>
         </div>
+
         <button type="submit" class="flights-display">Afficher les vols ></button>
         <div class="bottom-links">
           <a>A propos de l'assistance spéciale ></a>

@@ -11,6 +11,7 @@ body {
 
 h2 {
   font-size: 16px;
+  font-weight: bolder;
   padding: 8px 0px 12px 0px;
 }
 
@@ -26,13 +27,21 @@ header {
   background-size: cover;
   height: 60px;
   font-size: 16px;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
 }
 
 header a {
-
   text-align: center;
   text-decoration: none;
   color: white;
+}
+
+header > div {
+  display: flex;
+  align-items: center;
+  gap: 20px;
 }
 
 header button {
@@ -55,7 +64,7 @@ nav {
 /* BEACH - SECTION */
 
 .beach-section {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .beach-section img {
@@ -67,20 +76,19 @@ nav {
 /* WORLDWIDE-DEFAULT */
 
 .worldwide-default {
-    margin-bottom: 20px;
-      box-shadow: #bbb 0px 0px 5px;
-
+  margin-bottom: 20px;
+  box-shadow: #bbb 0px 0px 5px;
+  display: flex;
 }
 
 .worldwide-default > div {
-    padding: 10px;
+  padding: 10px;
 }
 
 .worldwide-default p {
-    font-size: 13px;
-    margin-bottom: 10px;
+  font-size: 13px;
+  margin-bottom: 10px;
 }
-
 
 .worldwide-default button {
   padding: 8px 40px;
@@ -89,13 +97,23 @@ nav {
   color: white;
   font-size: 14px;
   border-radius: 2px;
+  align-self: flex-end;
+}
+
+.worldwide-default img {
+  width: 640px;
+}
+
+.worldwide-default > div {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 /* WORLDWIDE */
 
-
-
 .worldwide img {
-  width: 100%;
+  /* width: 100%; */
   height: 250px;
   object-fit: cover;
   object-position: right top;
@@ -104,22 +122,49 @@ nav {
 
 /* WORLDWIDE2 */
 
-
-
 .worldwide2 img {
-  width: 100%;
   height: 305px;
   object-fit: cover;
   object-position: right top;
-    display: block;
+  display: block;
 }
 
-/* Footer */
+/* TRIPLE IMGS */
+.triple-imgs {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+.triple-imgs img {
+  display: block;
+  height: 220px;
+  width: 285px;
+  object-fit: cover;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #bbb;
+}
+
+/* FOOTER */
 
 footer {
   background-color: #f3f3f3;
 }
 
-footer > div {
-    padding: 10px;
+.footer-div {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-div > div {
+}
+
+.footer-div p {
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.footer-div li {
+  font-size: 12px;
+  line-height: 18px;
 }

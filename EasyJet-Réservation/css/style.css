@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 
-/* BOOKING-MENU GENERAL STYLE */
+/* BOOKING-MENU GENERAL  */
 
 .booking-menu {
   font-size: 13px;
@@ -15,8 +15,13 @@
   margin-top: 20px;
 }
 
+/* CHECKBOX */
+
 .checkbox {
+  display: flex;
+  align-items: center;
   margin-bottom: 10px;
+  gap: 10px;
 }
 
 .checkbox input {
@@ -24,13 +29,12 @@
   height: 28px;
 }
 
-/* BLOC DESTINATION - STYLE */
+/* BLOC DESTINATION  */
 
 .destination {
   border: solid 1px #e2e2e2;
   width: 278px;
   height: 71px;
-
 }
 
 .destination div:nth-child(1) {
@@ -65,14 +69,14 @@
 
 /* BLOC DATE - STYLE  */
 
-.date {
+.date-picker {
   border: solid 1px #e2e2e2;
   width: 278px;
   height: 71px;
   margin: 10px 0px;
 }
 
-.date p {
+.date-picker p {
   color: #ff7801;
   margin: 1px;
   padding: 0 6px;
@@ -80,26 +84,24 @@
   line-height: 34px;
 }
 
-/* BLOC PASSENGERS - STYLE */
+/* BLOC QUANTITY - STYLE */
 
-.passengers {
-  padding-bottom: 5px;
-}
-
-.passengers div:nth-child(n) {
+.quantity > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   padding: 5px;
 }
 
-.passengers div:nth-child(n) > button {
+.quantity button {
   border: none;
   background-color: unset;
   font-size: 20px;
-
 }
 
-.passengers > div > span {
-  font-size: 20px;
+.quantity > div span {
   font-weight: bold;
+  font-size: 20px;
 }
 
 .flights-display {
